@@ -169,11 +169,11 @@ def loops_5():
     you'll come to see the pros and cons of each over time.
     """
     returnlist = []
-    for x in range(0,10):
-            py = []
-            for y in range(0,5):
-                py.append("(x" + str(x) + ",y" + str(y) + ")")
-            returnlist.append(py)
+    for i in range(0,10):
+        py = []
+        for j in range(0,5):
+            py.append("(i" + str(i) + ", j" + str(j) + ")")
+        returnlist.append(py)
     return (returnlist)
 
 
