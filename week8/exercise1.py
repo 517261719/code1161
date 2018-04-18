@@ -28,11 +28,11 @@ def three_counter(input_list=[1, 4, 3, 5, 7, 1, 3, 2, 3, 3, 5, 3, 7]):
     TIP: the test will use a different input_list, so don't just return 5
     """
     def num_digits(n):
-    counter = 0
-    for item in input_list:
-        if item == 3:
-            counter += 1
-    return counter
+        counter = 0
+        for item in input_list:
+            if item == 3:
+                counter += 1
+        return counter
 
 
 
